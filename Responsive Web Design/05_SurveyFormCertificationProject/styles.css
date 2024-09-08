@@ -1,6 +1,10 @@
 /* General */
 @import url('https://fonts.googleapis.com/css?family=Raleway:200i,400&display=swap');
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	color: #f3f3f3;
@@ -80,6 +84,8 @@ form {
 	outline: 0;
 	border: 1px solid #A4E5D3;
 	border-radius: 0.25rem;
+	padding: 0.5rem 0.75rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .form-input:focus {
@@ -96,6 +102,8 @@ form {
 
 .input-textarea {
 	outline: 0;
+	width: 100%;
+	padding: 0.75rem;
 	min-height: 120px;
 	width: 100%;
 }
