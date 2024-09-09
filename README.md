@@ -1,6 +1,6 @@
 # FreeCodeCamp Curriculum Progress
 
-Welcome to my GitHub repository where I share my projects and progress as I follow the [FreeCodeCamp](https://www.freecodecamp.org/) curriculum. This repository contains my solutions to the various challenges and projects provided by FreeCodeCamp, organized by the different sections of the curriculum. 
+Welcome to my GitHub repository where I share my projects and progress as I follow the [FreeCodeCamp](https://www.freecodecamp.org/) curriculum. This repository contains my solutions to the various challenges and projects provided by FreeCodeCamp, organized by the different sections of the curriculum.
 
 ## Introduction
 
@@ -13,8 +13,8 @@ I am currently working on Responsive Web Design section and will update this rep
 ## Progress
 
 | Section                                   | Completed Projects |
-| ------------------------------------------| ------------------ |
-| Responsive Web Design                     | 1/5                | 
+| ----------------------------------------- | ------------------ |
+| Responsive Web Design                     | 2/5                |
 | JavaScript Algorithms and Data Structures | 0/7                |
 | Front End Development Libraries           | 0/5                |
 | Data Visualization                        | 0/5                |

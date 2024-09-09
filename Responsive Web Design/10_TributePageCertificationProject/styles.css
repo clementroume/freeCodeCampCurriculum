@@ -1,0 +1,106 @@
+/* General */
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,600,700");
+
+html {
+  font-size: 10px;
+}
+
+main {
+  background-color: #3292c244;
+  font-family: Raleway;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 50px 15px;
+  padding: 15px;
+  border-radius: 15px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Figure */
+#img-div {
+  padding: 15px;
+  background-color: white;
+  max-width: 100%;
+  margin: 0;
+  border-radius: 15px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  margin-top: 15px;
+}
+
+/* Texts */
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 0 auto -5px auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+a:link,
+a:visited {
+  color: #7e1700;
+}
+
+#subtitle {
+  font-style: italic;
+  font-size: 1.8rem;
+  margin: 0 auto 15px 0;
+}
+
+.bold {
+  font-weight: 600;
+  color: #7e1700;
+}
+
+#top-h2 {
+  padding: 30px 0 30px 0;
+  margin: 0;
+}
+
+#subtitle {
+  font-style: italic;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+blockquote {
+  padding: 15px 0 15px 0;
+  margin: 0;
+  text-align: left;
+}
+
+#bottom-h2 {
+  padding-top: 15px;
+  margin: 0;
+}
+
+/* List */
+ul {
+  max-width: 550px;
+  margin: 0 auto 15px auto;
+  padding: 0;
+  text-align: left;
+  line-height: 1.75;
+  list-style: none;
+}
+
+li {
+  margin: 10px 0;
+}
+
+#tribute-info {
+  padding: 0px 15px;
+}
