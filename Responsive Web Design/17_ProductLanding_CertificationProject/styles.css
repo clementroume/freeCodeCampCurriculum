@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Lato&display=swap");
+
+:root {
+  --roma1: #7e1700;
+  --roma2: #995215;
+  --roma3: #b0802b;
+  --roma4: #c8b455;
+  --roma4trs: #c8b45511;
+  --roma5: #d0e3a3;
+  --roma6: #a4e5d3;
+  --roma7: #5dc1d3;
+  --roma8: #3292c2;
+  --roma9: #2064ae;
+  --roma10: #033198;
+}
+
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: var(--roma4trs);
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+@media (max-width: 600px) {
+  html {
+    scroll-padding-top: 200px;
+  }
+}
+
+h2 {
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 5px 20px;
+  font-family: "Lato";
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--roma8);
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+#logo {
+  width: 60vw;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  #logo {
+    margin-top: 15px;
+    justify-content: center;
+  }
+}
+
+#logo-title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--roma6);
+}
+
+@media (max-width: 600px) {
+  #logo-title {
+    font-size: 2rem;
+  }
+}
+
+#header-img {
+  height: 70px;
+  filter: invert(31%) sepia(70%) saturate(890%) hue-rotate(177deg)
+    brightness(96%) contrast(93%);
+}
+
+nav {
+  text-align: center;
+}
+
+#nav-bar ul {
+  width: 35vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+  #nav-bar > ul {
+    flex-direction: column;
+  }
+}
+
+#nav-bar li {
+  font-size: 1.8rem;
+  list-style: none;
+  border: solid 1px var(--roma9);
+  border-radius: 50px;
+  padding: 15px;
+}
+
+#nav-bar li:hover {
+  background-color: var(--roma9);
+  border-radius: 50px;
+}
+
+@media (max-width: 600px) {
+  #nav-bar li {
+    padding: inherit;
+    padding-bottom: 5px;
+    margin-top: 5px;
+  }
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--roma6);
+  font-weight: 600;
+}
+
+#registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+
+#registration > h2 {
+  margin: 20px;
+}
+
+#registration input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  border: solid 1px var(--roma9);
+  border-radius: 50px;
+  background-color: var(--roma8);
+  color: var(--roma6);
+  text-align: center;
+}
+
+#registration input[type="email"]::placeholder {
+  color: var(--roma6);
+  text-align: center;
+}
+
+#registration input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: solid 1px var(--roma9);
+  border-radius: 50px;
+  background-color: var(--roma8);
+  cursor: pointer;
+  color: var(--roma6);
+  font-weight: 600;
+}
+
+#registration input[type="submit"]:hover {
+  background-color: var(--roma9);
+}
+
+@media (max-width: 600px) {
+  #registration {
+    margin-top: 160px;
+  }
+}
+
+main {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.feat {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .feat {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+#features p {
+  margin-top: 10px;
+  font-size: 1.6rem;
+}
+
+#features .icon {
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 125px;
+  width: 20vw;
+  color: var(--roma9);
+}
+
+@media (max-width: 600px) {
+  #features .icon {
+    min-height: inherit;
+  }
+}
+
+#features .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+@media (max-width: 600px) {
+  #features .description {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    min-height: 150px;
+    margin-bottom: 25px;
+  }
+}
+
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#how-it-works iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+#pricing {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  #pricing {
+    flex-direction: column;
+  }
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid var(--roma9);
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+.product .product-title {
+  background-color: var(--roma8);
+  color: var(--roma6);
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.product h2 {
+  margin-top: 15px;
+}
+
+.product ul {
+  margin: 15px 0;
+}
+
+.product ul li {
+  padding: 5px 0;
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.product button {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: solid 1px var(--roma9);
+  border-radius: 50px;
+  background-color: var(--roma8);
+  cursor: pointer;
+  color: var(--roma6);
+  font-weight: 600;
+}
+
+.product button:hover {
+  background-color: var(--roma9);
+}
+
+footer {
+  margin-top: 30px;
+  background-color: var(--roma8);
+  padding: 20px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul li {
+  list-style: none;
+  font-size: 1.6rem;
+  border: solid 1px var(--roma9);
+  border-radius: 50px;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+@media (max-width: 600px) {
+  footer ul li {
+    padding: inherit;
+    padding: 5px;
+  }
+}
+
+footer ul li:hover {
+  background-color: var(--roma9);
+}
+
+footer ul li a {
+  color: var(--roma6);
+  text-decoration: none;
+}
+
+footer div {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  font-size: 1.5rem;
+  color: var(--roma6);
+}
+
+footer div a {
+  color: var(--roma9);
+}
