@@ -15,7 +15,7 @@ I am currently working on Responsive Web Design section and will update this rep
 | Section                                   | Completed Projects |
 | ----------------------------------------- | ------------------ |
 | Responsive Web Design                     | 5/5                |
-| JavaScript Algorithms and Data Structures | 0/5                |
+| JavaScript Algorithms and Data Structures | 1/5                |
 | Front End Development Libraries           | 0/5                |
 | Data Visualization                        | 0/5                |
 | APIs and Microservices                    | 0/5                |
