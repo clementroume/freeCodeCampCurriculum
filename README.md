@@ -8,21 +8,24 @@ This repository is dedicated to documenting my learning journey through FreeCode
 
 ## Ongoing Projects
 
-I am currently working on Responsive Web Design section and will update this repository as I make progress.
+I am currently working on JavaScript Algorithms and Data Structures section and will update this repository as I make progress.
 
 ## Progress
 
-| Section                                   | Completed Projects |
-| ----------------------------------------- | ------------------ |
-| Responsive Web Design                     | 5/5                |
-| JavaScript Algorithms and Data Structures | 3/5                |
-| Front End Development Libraries           | 0/5                |
-| Data Visualization                        | 0/5                |
-| APIs and Microservices                    | 0/5                |
-| Quality Assurance                         | 0/5                |
-| Scientific Computing with Python          | 0/5                |
-| Data Analysis with Python                 | 0/5                |
-| Information Security                      | 0/5                |
+| Section                                       | Completed Projects |
+| --------------------------------------------- | ------------------ |
+| 1 - Responsive Web Design                     | 20/20              |
+| 2 - JavaScript Algorithms and Data Structures | 18/24              |
+| 3 - Front End Development Libraries           | 0/11               |
+| 4 - Data Visualization                        | 0/7                |
+| 5 - Relational Database                       | 0/14               |
+| 6 - Back End Development and APIs             | 0/8                |
+| 7 - Quality Assurance                         | 0/7                |
+| 8 - Scientific Computing with Python          | 0/19               |
+| 9 - Data Analysis with Python                 | 0/7                |
+| 10 - Information Security                     | 0/7                |
+| 11 - Machine Learning with Python             | 0/7                |
+| 12 - College Algebra with Python              | 0/20               |
 
 I regularly update this table to track my progress. You can also follow my progress on FreeCodeCamp at this link: [FreeCodeCamp personnal page](https://www.freecodecamp.org/croume)
 
