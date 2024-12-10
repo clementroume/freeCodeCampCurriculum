@@ -1,0 +1,145 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f4f4f9;
+  color: #333;
+}
+
+main {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+/* Input and Button Section */
+div {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+#cash {
+  width: calc(100% - 120px);
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#purchase-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#purchase-btn:hover {
+  background-color: #45a049;
+}
+
+/* Change Due Display */
+#change-due {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+#change-due p {
+  margin: 5px 0;
+}
+
+/* Cash Drawer Section */
+#cash-drawer {
+  margin-top: 20px;
+}
+
+#cash-drawer h3 {
+  font-size: 1.2rem;
+  color: #4caf50;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#drawer-contents {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#drawer-contents li {
+  padding: 8px 12px;
+  font-size: 1rem;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+/* Screen Text (Price Display) */
+#screen-text {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Middle Display */
+.middle-display {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.1rem;
+  background: #f4f4f9;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.middle-display p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  #cash {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #purchase-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #drawer-contents li {
+    font-size: 0.9rem;
+  }
+}

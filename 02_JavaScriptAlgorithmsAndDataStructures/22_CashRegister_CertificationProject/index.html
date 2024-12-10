@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Cash Register</title>
+</head>
+
+<body>
+	<main>
+		<div class="cash-register">
+			<!-- Screen Area -->
+			<div class="screen">
+				<p id="screen-text">Total: $3.26</p>
+			</div>
+
+			<!-- Cash Slot -->
+			<div class="cash-slot"></div>
+
+			<!-- User Input -->
+			<div class="input-section">
+				<label for="cash">Enter cash:</label>
+				<input type="number" id="cash" placeholder="Enter amount" min="0" step="0.01">
+			</div>
+
+			<!-- Buttons -->
+			<div class="buttons">
+				<button id="purchase-btn" class="btn">Purchase</button>
+			</div>
+
+			<!-- Cash Drawer Display -->
+			<div id="cash-drawer">
+				<h3>Cash Drawer</h3>
+				<ul id="drawer-contents">
+					<!-- Dynamic cash drawer content will be updated here -->
+				</ul>
+			</div>
+
+			<!-- Change Due Display -->
+			<div id="change-due" aria-live="polite">
+				<!-- Change status and details will be updated dynamically -->
+			</div>
+		</div>
+	</main>
+
+	<script src="./script.js"></script>
+</body>
+
+</html>
