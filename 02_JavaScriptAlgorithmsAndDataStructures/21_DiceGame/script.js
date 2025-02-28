@@ -1,14 +1,14 @@
-const listOfAllDice = document.querySelectorAll(".die");
-const scoreInputs = document.querySelectorAll("#score-options input");
-const scoreSpans = document.querySelectorAll("#score-options span");
-const roundElement = document.getElementById("current-round");
-const rollsElement = document.getElementById("current-round-rolls");
-const totalScoreElement = document.getElementById("total-score");
-const scoreHistory = document.getElementById("score-history");
-const rollDiceBtn = document.getElementById("roll-dice-btn");
-const keepScoreBtn = document.getElementById("keep-score-btn");
-const rulesContainer = document.querySelector(".rules-container");
-const rulesBtn = document.getElementById("rules-btn");
+const listOfAllDice = document.querySelectorAll('.die');
+const scoreInputs = document.querySelectorAll('#score-options input');
+const scoreSpans = document.querySelectorAll('#score-options span');
+const roundElement = document.getElementById('current-round');
+const rollsElement = document.getElementById('current-round-rolls');
+const totalScoreElement = document.getElementById('total-score');
+const scoreHistory = document.getElementById('score-history');
+const rollDiceBtn = document.getElementById('roll-dice-btn');
+const keepScoreBtn = document.getElementById('keep-score-btn');
+const rulesContainer = document.querySelector('.rules-container');
+const rulesBtn = document.getElementById('rules-btn');
 
 let diceValuesArr = [];
 let isModalShowing = false;
@@ -54,7 +54,6 @@ const getHighestDuplicates = (array) => {
     if (count >= 3) {
       updateRadioOption(0, totalScore);
     }
-    updateRadioOption(5, 0);
   });
 };
 
@@ -65,23 +64,21 @@ const detectFullHouse = (array) => {
   if (Object.values(counts).includes(2) && Object.values(counts).includes(3)) {
     updateRadioOption(2, 25);
   }
-  updateRadioOption(5, 0);
 };
 
 const checkForStraights = (array) => {
-  const uniqueSortedDice = [...new Set(array)].sort((a, b) => a - b).join("");
+  const uniqueSortedDice = [...new Set(array)].sort((a, b) => a - b).join('');
 
-  if (uniqueSortedDice === "12345" || uniqueSortedDice === "23456") {
+  if (uniqueSortedDice === '12345' || uniqueSortedDice === '23456') {
     updateRadioOption(4, 40);
   }
   if (
-    uniqueSortedDice.includes("1234") ||
-    uniqueSortedDice.includes("2345") ||
-    uniqueSortedDice.includes("3456")
+    uniqueSortedDice.includes('1234') ||
+    uniqueSortedDice.includes('2345') ||
+    uniqueSortedDice.includes('3456')
   ) {
     updateRadioOption(3, 30);
   }
-  updateRadioOption(5, 0);
 };
 
 const resetRadioOptions = () => {
@@ -90,7 +87,7 @@ const resetRadioOptions = () => {
     input.checked = false;
   });
   scoreSpans.forEach((span) => {
-    span.textContent = "";
+    span.textContent = '';
   });
 };
 
@@ -100,14 +97,14 @@ const resetGame = () => {
   rolls = 0;
   round = 1;
   totalScoreElement.textContent = score;
-  scoreHistory.innerHTML = "";
+  scoreHistory.innerHTML = '';
   updateStats();
   resetRadioOptions();
 };
 
-rollDiceBtn.addEventListener("click", () => {
+rollDiceBtn.addEventListener('click', () => {
   if (rolls === 3) {
-    alert("You have made three rolls this round. Please select a score.");
+    alert('You have made three rolls this round. Please select a score.');
   } else {
     rolls++;
     resetRadioOptions();
@@ -116,16 +113,17 @@ rollDiceBtn.addEventListener("click", () => {
     getHighestDuplicates(diceValuesArr);
     detectFullHouse(diceValuesArr);
     checkForStraights(diceValuesArr);
+    updateRadioOption(5, 0);
   }
 });
 
-rulesBtn.addEventListener("click", () => {
+rulesBtn.addEventListener('click', () => {
   isModalShowing = !isModalShowing;
-  rulesBtn.textContent = isModalShowing ? "Hide rules" : "Show rules ";
-  rulesContainer.style.display = isModalShowing ? "block" : "none";
+  rulesBtn.textContent = isModalShowing ? 'Hide rules' : 'Show rules ';
+  rulesContainer.style.display = isModalShowing ? 'block' : 'none';
 });
 
-keepScoreBtn.addEventListener("click", () => {
+keepScoreBtn.addEventListener('click', () => {
   const selectedOption = document.querySelector(
     'input[name="score-options"]:checked'
   );
@@ -144,6 +142,6 @@ keepScoreBtn.addEventListener("click", () => {
       }, 500);
     }
   } else {
-    alert("Please select a score option before continuing to the next round.");
+    alert('Please select a score option before continuing to the next round.');
   }
 });
