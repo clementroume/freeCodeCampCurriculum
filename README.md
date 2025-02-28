@@ -34,7 +34,7 @@ Each section contains my completed projects and solutions, reflecting my learnin
 | Section                                          | Completed Projects |
 | ------------------------------------------------ | ------------------ |
 | ✅ **Responsive Web Design**                     | 20/20              |
-| 🔄 **JavaScript Algorithms and Data Structures** | 22/25              |
+| 🔄 **JavaScript Algorithms and Data Structures** | 24/25              |
 | ⏳ **Front End Development Libraries**           | 0/11               |
 | ⏳ **Data Visualization**                        | 0/7                |
 | ⏳ **Relational Database**                       | 0/14               |
