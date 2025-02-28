@@ -34,7 +34,7 @@ Each section contains my completed projects and solutions, reflecting my learnin
 | Section                                          | Completed Projects |
 | ------------------------------------------------ | ------------------ |
 | ✅ **Responsive Web Design**                     | 20/20              |
-| 🔄 **JavaScript Algorithms and Data Structures** | 18/24              |
+| 🔄 **JavaScript Algorithms and Data Structures** | 22/25              |
 | ⏳ **Front End Development Libraries**           | 0/11               |
 | ⏳ **Data Visualization**                        | 0/7                |
 | ⏳ **Relational Database**                       | 0/14               |
@@ -66,6 +66,7 @@ I update this table regularly to track my progress. You can also follow my FreeC
 I’m Clément Roume, a Full-Stack Developer in training, continuously learning and building real-world applications. Through this repository, I aim to refine my coding skills and contribute to the developer community.
 
 Connect with me:  
+
 - [GitHub](https://github.com/clementroume)  
 - [LinkedIn](https://www.linkedin.com/in/croume/)  
 
@@ -73,9 +74,9 @@ Connect with me:
 
 ## My Cerfifications
 
-### Responsive Web Design:
-![Screenshot 2025-02-27 at 14 56 50](https://github.com/user-attachments/assets/ca6eb713-30ce-4050-af6e-8d5ecaf2c3ed)
+### Responsive Web Design
 
+![Screenshot 2025-02-27 at 14 56 50](https://github.com/user-attachments/assets/ca6eb713-30ce-4050-af6e-8d5ecaf2c3ed)
 
 ---
 
