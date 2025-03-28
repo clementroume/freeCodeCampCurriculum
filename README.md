@@ -78,6 +78,10 @@ Connect with me:
 
 ![Screenshot 2025-02-27 at 14 56 50](https://github.com/user-attachments/assets/ca6eb713-30ce-4050-af6e-8d5ecaf2c3ed)
 
+### JavaScript Algorithms and Data Structures
+
+![Screenshot 2025-03-28 at 11 13 07](https://github.com/user-attachments/assets/97a4120d-857c-49d1-ab41-6bddc2f96e25)
+
 ---
 
 ## 🤝 Contributions & Feedback
