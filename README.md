@@ -40,7 +40,7 @@ Each section contains my completed projects and solutions, reflecting my learnin
 | ⏳ **Relational Database**                       | 0/14               |
 | ⏳ **Back End Development and APIs**             | 0/8                |
 | ⏳ **Quality Assurance**                         | 0/7                |
-| ⏳ **Scientific Computing with Python**          | 0/19               |
+| ✅ **Scientific Computing with Python**          | 19/19              |
 | ⏳ **Data Analysis with Python**                 | 0/7                |
 | ⏳ **Information Security**                      | 0/7                |
 | ⏳ **Machine Learning with Python**              | 0/7                |
